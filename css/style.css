@@ -53,7 +53,6 @@ a:hover {color: var(--primary-color);}
   }
 }
 
-
 .hero__video {
   position: absolute;
   top: 50%;
@@ -121,6 +120,41 @@ a:hover {color: var(--primary-color);}
   width: 100%;
   padding: 0 1rem;
   margin: 0 auto;
+}
+
+/* Steps Section */
+.steps {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.steps__section-thumbnail {
+  height: 240px;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+.steps--background {
+  background-color: #FEF8F9;
+}
+
+@media (min-width: 544px) {
+  .steps {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .steps__section-thumbnail {
+    height: auto;
+  }
+}
+
+.steps__content-width {
+  max-width: 456px;
+  margin: 0 auto;
+}
+
+.footer .border-highlight {
+  border-top: 1px solid var(--primary-color-highlight);
 }
 
 @media (min-width: 1200px) {
